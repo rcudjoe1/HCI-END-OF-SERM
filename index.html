@@ -1,44 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Richie Rich Apartment</title>
 </head>
+
 <body>
+
+
+
+
+
+
+
+    <div class="request2 cancelele" id="requestform3">
+        <div class="container2">
+            <div class="closehead">
+                <span class="cancel2" onclick="closeReq3()">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </span>
+            </div>
+            <div class="homecontainer">
+                <div class="head">
+                    <div class="name">1 Bedroom, 1 Bathroom</div>
+                    <div class="btnss">
+                        <button onclick="displayReq()">Send Message</button>
+                        <button class="active">(233) 24127427</button>
+                    </div>
+                </div>
+                <div class="head2">
+                    $1,242 - $1,751 | 740 Sq Ft
+                </div>
+                <div class="head3">
+                    <div class="left">
+                        <div class="floorplan">
+                            Floor Plan
+                        </div>
+                    </div>
+                    <div class="right">
+                        Available now
+                    </div>
+                </div>
+                <div class="main">
+                    <div class="image">
+                        <img src="photo_2023-07-24_14-39-27.jpg" >
+                    </div>
+                    <div class="information">
+                        <div class="one">
+                            <h2>Features</h2>
+                            <p>High Speed Internet Access</p>
+                            <p>Washer/Dryer</p>
+                            <p>Air Conditioning</p>
+                            <p>Smoke Free</p>
+                        </div>
+                        <div class="one">
+                            <h2>Kitchen</h2>
+                            <p>Dishwasher</p>
+                            <p>Diaspora</p>
+                        </div>
+                        <div class="one">
+                            <h2>Living Space</h2>
+                            <p>Built-in Bookshelves</p>
+                        </div>
+                        <div class="one">
+                            <h2>Outdoor Space</h2>
+                            <p>Patio</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="request cancelele" id="requestform4">
+        <div class="container2">
+            <div class="closehead">
+                <span class="cancel2" onclick="closeReq4()">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </span>
+            </div>
+            <div class="homecontainer">
+                <div class="head">
+                    <div class="name">1 Bedroom, 1 Bathroom</div>
+                    <div class="btnss">
+                        <button onclick="displayReq()">Send Message</button>
+                        <button class="active">(233) 24127427</button>
+                    </div>
+                </div>
+                <div class="head2">
+                    $1,520 - $1,964 | 1,275 Sq Ft
+                </div>
+                <div class="head3">
+                    <div class="left">
+                        <div class="floorplan">
+                            Floor Plan
+                        </div>
+                    </div>
+                    <div class="right">
+                        Available now
+                    </div>
+                </div>
+                <div class="main">
+                    <div class="image">
+                        <img src="photo_2023-07-24_14-39-27.jpg" >
+                    </div>
+                    <div class="information">
+                        <div class="one">
+                            <h2>Features</h2>
+                            <p>High Speed Internet Access</p>
+                            <p>Washer/Dryer</p>
+                            <p>Air Conditioning</p>
+                            <p>Smoke Free</p>
+                        </div>
+                        <div class="one">
+                            <h2>Kitchen</h2>
+                            <p>Dishwasher</p>
+                            <p>Diaspora</p>
+                        </div>
+                        <div class="one">
+                            <h2>Living Space</h2>
+                            <p>Built-in Bookshelves</p>
+                        </div>
+                        <div class="one">
+                            <h2>Outdoor Space</h2>
+                            <p>Patio</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="request cancelele" id="requestform2">
+        <div class="container">
+            <div class="closehead">
+                Richie Rich Apartment
+                <span class="cancel" onclick="closeReq2()">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </span>
+            </div>
+            <div class="form">
+                <div class="flex">
+                    <div class="left-name">
+                        <h3>First Name</h3>
+                        <input type="text">
+                    </div>
+                    <div class="left-name">
+                        <h3>Last Name</h3>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="full" style="margin-top: 20px;">
+                    <h3>Email</h3>
+                    <input type="email">
+                </div>
+                <div class="flex" style="margin-top: 20px;">
+                    <div class="left-name">
+                        <h3>Move-in-date</h3>
+                        <input type="date" placeholder="00 / 00 / 00">
+                    </div>
+                    <div class="left-name">
+                        <h3>Phone</h3>
+                        <input type="phone" placeholder="( )  000  000  000">
+                    </div>
+                </div>
+                <div class="full2" style="margin-top: 10px;">
+                    <div class="checkarea">
+                        <div class="boxes">
+                            <div>
+                                <input type="checkbox"> Schedule a Tour
+                            </div>
+                            <div>
+                                <input type="checkbox"> Confirm Availablilty
+                            </div>
+                        </div>
+                        <div class="boxes">
+                            <div>
+                                <input type="checkbox"> Request Application
+                            </div>
+                            <div>
+                                <input type="checkbox"> Custom Message
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="full" style="margin-top: 20px;">
+                    <button>Send Message</button>
+                </div>
+                <div class="flex" style="margin-top: 20px; margin-bottom: 20px;">
+                    <input type="checkbox" name="" id="">
+                    Email me listings and apartment related info
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="request cancelele" id="requestform">
+        <div class="container">
+            <div class="closehead">
+                Richie Rich Apartment
+                <span class="cancel" onclick="closeReq()">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </span>
+            </div>
+            <div class="form">
+                <div class="flex">
+                    <div class="left-name">
+                        <h3>First Name</h3>
+                        <input type="text">
+                    </div>
+                    <div class="left-name">
+                        <h3>Last Name</h3>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="full" style="margin-top: 20px;">
+                    <h3>Email</h3>
+                    <input type="text">
+                </div>
+                <div class="flex" style="margin-top: 20px;">
+                    <div class="left-name">
+                        <h3>Move-in-date</h3>
+                        <input type="date" placeholder="00 / 00 / 00">
+                    </div>
+                    <div class="left-name">
+                        <h3>Phone</h3>
+                        <input type="phone" placeholder="( )  000  000  000">
+                    </div>
+                </div>
+                <div class="full" style="margin-top: 40px;">
+                    <textarea placeholder="i will like to schedule a tour"></textarea>
+                </div>
+                <div class="full" style="margin-top: 20px;">
+                    <button>Send Message</button>
+                </div>
+                <div class="flex" style="margin-top: 20px; margin-bottom: 20px;">
+                    <input type="checkbox" name="" id="">
+                    Email me listings and apartment related info
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="info-m" id="sidebar">
         <h4>Contact This Property</h4>
-        <button class="active">Request Tour</button>
-        <button>Send Message</button>
+        <button class="active" onclick="displayReq2()">Request Tour</button>
+        <button onclick="displayReq()">Send Message</button>
         <br><br>
         <div class="contact-m">
             <span class="material-symbols-outlined">
                 smartphone
-                </span>
+            </span>
             +233-241-274-270
         </div>
         <div class="info2-m">
             <div class="line1"></div>
             <p>
-                <span class="material-symbols-outlined">public</span>                
-                Language: English</p>
+                <span class="material-symbols-outlined">public</span>
+                Language: English
+            </p>
             <p>
                 <span class="material-symbols-outlined">update</span>
-                Opened Tuesday 10AM - 6PM</p>
-            <a href="#">View All Hour</a>
+                Opened Tuesday 10AM - 6PM
+            </p>
+            <a class="tooltip" style="cursor: pointer;">
+                View All Hour
+                <span class="tooltiptext">
+                    <h2>Opening hours</h2>
+
+                    <div class="flex">
+                        <div class="day">Wednesday</div>
+                        <div class="time">10AM</div>
+                        <div class="time">6PM</div>
+                    </div>
+                    <div class="flex">
+                        <div class="day">Thursday</div>
+                        <div class="time">10AM</div>
+                        <div class="time">6PM</div>
+                    </div>
+                    <div class="flex">
+                        <div class="day">Friday</div>
+                        <div class="time">10AM</div>
+                        <div class="time">6PM</div>
+                    </div>
+                    <div class="flex">
+                        <div class="day">Saturday</div>
+                        <div class="time">10AM</div>
+                        <div class="time">6PM</div>
+                    </div>
+                    <div class="flex">
+                        <div class="day">Sunday</div>
+                        <div class="time">10AM</div>
+                        <div class="time">6PM</div>
+                    </div>
+                    <div class="flex">
+                        <div class="day">Monday</div>
+                        <div class="time">10AM</div>
+                        <div class="time">6PM</div>
+                    </div>
+
+                </span>
+
+            </a>
         </div>
     </div>
     <div class="header">
-        <div class="left"><div>Booking of apartment</div></div>
+        <div class="left">
+            <div>Booking of apartment</div>
+        </div>
         <div class="right">
-                <a href="#">ABOUT OUR DEALS</a>
-                <a href="#">ADD A LISTING</a>
+            <a href="#">ABOUT OUR DEALS</a>
+            <a href="#">ADD A LISTING</a>
             <div class="lines3">
                 <div></div>
                 <div></div>
@@ -78,13 +367,13 @@
         </div>
     </div>
     <div class="main2">
-        <div class="main2-headers">        
+        <div class="main2-headers">
             <button class="active" onclick="showall()">All</button>
             <button onclick="show1()">1 Bed</button>
             <button onclick="show2()">2 Beds</button>
             <button onclick="show3()">3 Beds</button>
             <button onclick="show4()">4 Beds</button>
-            <button >Deals</button>
+            <button>Deals</button>
 
         </div>
         <div class="main2-headers2">
@@ -103,7 +392,7 @@
             <div class="unit"> </div>
             <div class="sqft">740sq.ft</div>
             <div class="availabilty">Available Now</div>
-            <div class="book"><button>View</button></div>
+            <div class="book"><button onclick="displayReq3()">View</button></div>
         </div>
         <div class="item" id="b2">
             <div class="bed">1 Bed</div>
@@ -112,7 +401,7 @@
             <div class="unit">10 - 10305</div>
             <div class="sqft">740sq.ft</div>
             <div class="availabilty">Available Now</div>
-            <div class="book"><button>View</button></div>
+            <div class="book"><button onclick="displayReq3()">View</button></div>
         </div>
         <div class="item" id="b3">
             <div class="bed">2 Bed</div>
@@ -121,7 +410,7 @@
             <div class="unit"> </div>
             <div class="sqft">970sq.ft</div>
             <div class="availabilty">Available Now</div>
-            <div class="book"><button>View</button></div>
+            <div class="book"><button onclick="displayReq3()">View</button></div>
         </div>
         <div class="item" id="b4">
             <div class="bed">2 Bed</div>
@@ -130,7 +419,7 @@
             <div class="unit"> 13 - 13307</div>
             <div class="sqft">970sq.ft</div>
             <div class="availabilty">Available Now</div>
-            <div class="book"><button>View</button></div>
+            <div class="book"><button onclick="displayReq3()">View</button></div>
         </div>
         <div class="item" id="b5">
             <div class="bed">2 Bed</div>
@@ -148,7 +437,7 @@
             <div class="unit"> </div>
             <div class="sqft">12,750sq.ft</div>
             <div class="availabilty">Available Now</div>
-            <div class="book"><button>View</button></div>
+            <div class="book"><button onclick="displayReq4()">View</button></div>
         </div>
         <div class="item" id="b7">
             <div class="bed">3 Bed</div>
@@ -157,7 +446,7 @@
             <div class="unit"> </div>
             <div class="sqft">12,750sq.ft</div>
             <div class="availabilty">Available Now</div>
-            <div class="book"><button>View</button></div>
+            <div class="book"><button onclick="displayReq4()">View</button></div>
         </div>
         <div class="item" id="b8">
             <div class="bed">4 Bed</div>
@@ -166,7 +455,7 @@
             <div class="unit">10 - 50000</div>
             <div class="sqft">12,750sq.ft</div>
             <div class="availabilty">Available Now</div>
-            <div class="book"><button>View</button></div>
+            <div class="book"><button onclick="displayReq4()">View</button></div>
         </div>
         <div class="item" id="b9">
             <div class="bed">4 Bed</div>
@@ -180,21 +469,21 @@
 
     </div>
     <div class="main3">
-        <div class="container">  
+        <div class="container">
             <div class="left">
-            <div class="leaseterms">
-                <h1>Lease Terms</h1>
-                <p style="margin-bottom: 30px;">3, 4, 5, 6, 7, 8, 9, 10, 11, 12</p>
-                <h1>Expenses</h1>
-                <p>One-Time</p>
+                <div class="leaseterms">
+                    <h1>Lease Terms</h1>
+                    <p style="margin-bottom: 30px;">3, 4, 5, 6, 7, 8, 9, 10, 11, 12</p>
+                    <h1>Expenses</h1>
+                    <p>One-Time</p>
+                </div>
+            </div>
+            <div class="right">
+                <h1 style="margin-right: 150px;">Application fee:</h1>
+                <p style="font-weight: bolder;">$50</p>
             </div>
         </div>
-        <div class="right">
-            <h1 style="margin-right: 150px;">Application fee:</h1>
-            <p style="font-weight: bolder;">$50</p>
-        </div>
-    </div>
-      
+
     </div>
     <div class="main4">
         <div class="header1">
@@ -203,190 +492,240 @@
             <div class="vertline"></div>
             <a onclick="displayEmail()" style="cursor: pointer;">Email</a>
             <div class="emailform cancelele" id="email">
-                    <h2>Email me a detailed report</h2> 
-                    <span class="cancel " onclick="closeEmail()" >
-                        <span class="material-symbols-outlined">
-                            close
-                        </span>
+                <h2>Email me a detailed report</h2>
+                <span class="cancel " onclick="closeEmail()">
+                    <span class="material-symbols-outlined">
+                        close
                     </span>
-                    <input type="text" placeholder="Name">
-                    <input type="text" placeholder="Your Email">
-                    <p>Additional Email(s)</p>
-                    <input type="text" placeholder="Your Email">
-                    <div class="buts">
-                        <button class="send">Send</button>
-                        <button onclick="closeEmail()">Cancel</button>
-                    </div>
+                </span>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Your Email">
+                <p>Additional Email(s)</p>
+                <input type="text" placeholder="Your Email">
+                <div class="buts">
+                    <button class="send">Send</button>
+                    <button onclick="closeEmail()">Cancel</button>
+                </div>
             </div>
         </div>
         <form action="#">
-        <div class="form">
-            <div class="block">
-                <h2>Choose Floor Plan</h2>
-                <select name="" id="" class="dropdown1">
-                    <option value="1">1 Bed</option>
-                    <option value="2">2 Beds</option>
-                    <option value="3">3 Beds</option>
-                    <option value="4">4 Beds</option>
+            <div class="form">
+                <div class="block">
+                    <h2>Choose Floor Plan</h2>
+                    <select name="" id="" class="dropdown1">
+                        <option value="1">1 Bed</option>
+                        <option value="2">2 Beds</option>
+                        <option value="3">3 Beds</option>
+                        <option value="4">4 Beds</option>
 
-                </select>
-                <div class="pets">
-                    <h2 style="margin-bottom: 10px;">Pets</h2>
-                    <div class="flex">
-                        <select name="dog" id="dog">
-                            <option value="">Dogs</option>
-                            <option value="1 dog">1 Dogs</option>
-                            <option value="2 dogs">2 Dogs</option>
-                            <option value="3 dogs">3 Dogs</option>
-                            <option value="4 dogs">4 Dogs</option>
-                            <option value="5 dogs">5 Dogs</option>
-                        </select>
-                        <select name="dog" id="cat">
-                            <option value="">Cats</option>
-                            <option value="1 cat">1 cat</option>
-                            <option value="2 cats">2 cats</option>
-                            <option value="3 cats">3 cats</option>
-                            <option value="4 cats">4 cats</option>
-                            <option value="5 cats">5 cats</option>
-                        </select>
+                    </select>
+                    <div class="pets">
+                        <h2 style="margin-bottom: 10px;">Pets</h2>
+                        <div class="flex">
+                            <select name="dog" id="dog">
+                                <option value="">Dogs</option>
+                                <option value="1 dog">1 Dogs</option>
+                                <option value="2 dogs">2 Dogs</option>
+                                <option value="3 dogs">3 Dogs</option>
+                                <option value="4 dogs">4 Dogs</option>
+                                <option value="5 dogs">5 Dogs</option>
+                            </select>
+                            <select name="dog" id="cat">
+                                <option value="">Cats</option>
+                                <option value="1 cat">1 cat</option>
+                                <option value="2 cats">2 cats</option>
+                                <option value="3 cats">3 cats</option>
+                                <option value="4 cats">4 cats</option>
+                                <option value="5 cats">5 cats</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="pets">
+                        <h2 style="margin-bottom: 10px;">Expenses</h2>
+                        <div class="flex">
+                            <select name="Applicant" id="Applicant">
+                                <option value="1 Applicant">1 Applicant</option>
+                                <option value="2 Applicant">2 Applicant</option>
+                                <option value="3 Applicant">3 Applicant</option>
+                                <option value="4 Applicant">4 Applicant</option>
+                                <option value="5 Applicant">5 Applicant</option>
+                            </select>
+                            <select name="Vehicles" id="cat">
+                                <option value="">Vehicles</option>
+                                <option value="1 Vehicle">1 Vehicle</option>
+                                <option value="2 Vehicles">2 Vehicles</option>
+                                <option value="3 Vehicles">3 Vehicles</option>
+                                <option value="4 Vehicles">4 Vehicles</option>
+                                <option value="5 Vehicles">5 Vehicles</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="Note">
+                        <p>
+                            <b>Note:</b> Based on community-supplied data
+                            and independent market research, subject to
+                            change without notice.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="block">
+                    <h2>One-Time Expenses</h2>
+                    <div class="container1">
+                        <div class="flex">
+                            <p style="margin-right: 30px;">Application Fee</p>
+                            <p>$50</p>
+                        </div>
+                        <p style="margin: 10px 0 0 0 ; color: #00000090;font-size: 16px;letter-spacing: 2px;">($50
+                            per Applicant)</p>
+                        <div class="flex" style="margin-top: 20px;">
+                            <p style="margin: 0px 18px 0 0;">Additional Discounts</p>
+                            <p>-$</p>
+                            <input type="text">
+                        </div>
+                        <div class="flex" style="margin-top: 20px;">
+                            <p style="margin: 0px 18px 0 0;">Additional Expenses</p>
+                            <p>-$</p>
+                            <input type="text">
+                        </div>
+
+                        <div class="total" style="border-top: 1px solid #00000090; margin-top: 230px; display: flex;">
+                            <p style="margin-top: 20px; margin-right: 20px;">Total (One-Time) </p>
+                            <p style="margin-top: 20px;">$50</p>
+                        </div>
+
                     </div>
                 </div>
-                <div class="pets">
-                    <h2 style="margin-bottom: 10px;">Expenses</h2>
-                    <div class="flex">
-                        <select name="Applicant" id="Applicant">
-                            <option value="1 Applicant">1 Applicant</option>
-                            <option value="2 Applicant">2 Applicant</option>
-                            <option value="3 Applicant">3 Applicant</option>
-                            <option value="4 Applicant">4 Applicant</option>
-                            <option value="5 Applicant">5 Applicant</option>
-                        </select>
-                        <select name="Vehicles" id="cat">
-                            <option value="">Vehicles</option>
-                            <option value="1 Vehicle">1 Vehicle</option>
-                            <option value="2 Vehicles">2 Vehicles</option>
-                            <option value="3 Vehicles">3 Vehicles</option>
-                            <option value="4 Vehicles">4 Vehicles</option>
-                            <option value="5 Vehicles">5 Vehicles</option>
-                        </select>
+                <div class="block">
+                    <h2>Monthly Expenses</h2>
+                    <div class="container1">
+                        <div class="flex">
+                            <p style="margin-right: 20px;">Rent*</p>
+                            <p style="font-size: 16px;">$1,890 - $1,580</p>
+                        </div>
+                        <div class="flex" style="margin-top: 20px;">
+                            <p style="margin: 0px 0px 0 0;">Additional Discounts</p>
+                            <p>-$</p>
+                            <input type="text">
+                        </div>
+                        <div class="flex" style="margin-top: 20px;">
+                            <p style="margin: 0px 0px 0 0;">Additional Expenses</p>
+                            <p>-$</p>
+                            <input type="text">
+                        </div>
+                        <div class="total" style="margin-top: 200px; display: flex; font-size: 16px;">*Based on 12
+                            month lease</div>
+
+                        <div class="total" style="border-top: 1px solid #00000090; margin-top: 0px; display: flex;">
+                            <p style="margin-top: 20px; margin-right: 10px;font-size: 16px;">Total (Monthly) </p>
+                            <p style="margin-top: 20px; font-size: 16px;">$1,890 - $1,580</p>
+                        </div>
+
                     </div>
-                </div>
-                <div class="Note">
-                    <p>
-                        <b>Note:</b> Based on community-supplied data
-                        and independent market research, subject to
-                        change without notice.
-                    </p>
                 </div>
 
             </div>
-            <div class="block">
-                <h2>One-Time Expenses</h2>
-                <div class="container1">
-                    <div class="flex"><p style="margin-right: 60px;">Application Fee</p><p>$50</p></div>
-                    <p style="margin: 10px 0 0 0 ; color: #00000090;font-size: 19px;letter-spacing: 2px;">($50 per Applicant)</p>
-                    <div class="flex" style="margin-top: 20px;" >
-                        <p style="margin: 0px 35px 0 0;">Additional Discounts</p>
-                        <p>-$</p>
-                        <input type="text" >
-                    </div>
-                    <div class="flex" style="margin-top: 20px;" >
-                        <p style="margin: 0px 37px 0 0;">Additional Expenses</p>
-                        <p>-$</p>
-                        <input type="text" >
-                    </div>
-
-                    <div class="total" style="border-top: 1px solid #00000090; margin-top: 200px; display: flex;">
-                        <p style="margin-top: 20px; margin-right: 50px;">Total (One-Time) </p>
-                        <p style="margin-top: 20px;">$50</p>
-                    </div>
-
-                </div>
-            </div>
-            <div class="block">
-                <h2>Monthly Expenses</h2>
-                <div class="container1">
-                    <div class="flex"><p style="margin-right: 60px;">Rent*</p><p style="font-size: 18px;">$1,890 - $1,580</p></div>
-                    <div class="flex" style="margin-top: 20px;" >
-                        <p style="margin: 0px 35px 0 0;">Additional Discounts</p>
-                        <p>-$</p>
-                        <input type="text" >
-                    </div>
-                    <div class="flex" style="margin-top: 20px;" >
-                        <p style="margin: 0px 0px 0 0;">Additional Expenses</p>
-                        <p>-$</p>
-                        <input type="text" >
-                    </div>
-                    <div class="total" style="margin-top: 215px; display: flex; font-size: 16px;">*Based on 12 month lease</div>
-
-                    <div class="total" style="border-top: 1px solid #00000090; margin-top: 0px; display: flex;">
-                        <p style="margin-top: 20px; margin-right: 100px;font-size: 16px;">Total (Monthly) </p>
-                        <p style="margin-top: 20px; font-size: 16px;">$1,890 - $1,580</p>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
         </form>
     </div>
     <div class="main5">
         <h2>About Richie Rich Apartments Bill St At Takoradi</h2>
         <p>
-            You will love living at Richie Rich Apartment  at Takoradi . 
-            Our community is one of the city’s most accessible neighborhoods 
-            for downtown commuters with I-285 only 2 miles away. 
-            Shoppers will be delighted to live in an apartment near 
-            Takoradi shop rite 
-            Marketplace with some of the most popular department stores and restaurants. 
-            In addition to being surrounded by some of the best entertainment in Takoradi, 
-            we are also conveniently located to many of the, educational institutes, and city attractions. 
-            With grocery stores, restaurants and department stores all within 2 miles from the community, 
-            you won't have to go far to have everything you need. Traveling professionals will appreciate 
-            living in an apartment near the airport with the world’s most visited, 
-            Takoradi International Airport less than 10 miles away. 
-            Close to everything that Takoradi has to offer like Takoradi Mall with all of your favorite 
-            shopping outlets, but far enough away to enjoy the quiet comforts of  living. 
-            Residents rave about the access to apartment staff where all of their maintenance 
-            and customer service needs are met quickly and thoroughly. The 1, 2 & 3 bedroom floor 
-            plans ensure a perfect fit for every family or resident that chooses our community. 
+            You will love living at Richie Rich Apartment at Takoradi .
+            Our community is one of the city’s most accessible neighborhoods
+            for downtown commuters with I-285 only 2 miles away.
+            Shoppers will be delighted to live in an apartment near
+            Takoradi shop rite
+            Marketplace with some of the most popular department stores and restaurants.
+            In addition to being surrounded by some of the best entertainment in Takoradi,
+            we are also conveniently located to many of the, educational institutes, and city attractions.
+            With grocery stores, restaurants and department stores all within 2 miles from the community,
+            you won't have to go far to have everything you need. Traveling professionals will appreciate
+            living in an apartment near the airport with the world’s most visited,
+            Takoradi International Airport less than 10 miles away.
+            Close to everything that Takoradi has to offer like Takoradi Mall with all of your favorite
+            shopping outlets, but far enough away to enjoy the quiet comforts of living.
+            Residents rave about the access to apartment staff where all of their maintenance
+            and customer service needs are met quickly and thoroughly. The 1, 2 & 3 bedroom floor
+            plans ensure a perfect fit for every family or resident that chooses our community.
             We can’t wait to welcome you home at Richie Rich Apartment!
         </p>
     </div>
     <div class="main6">
         <div class="contact-container">
-            <div class="header3"><h2>Contact</h2></div>
+            <div class="header3">
+                <h2>Contact</h2>
+            </div>
             <div class="contacts">
                 <div class="con">
-                        <div>
-                            <span class="material-symbols-outlined" style="color: #ec7200;">smartphone</span>
-                            <a href="#">+233 241274720</a>
-                        </div>
-                        <div>
-                            <span class="material-symbols-outlined" style="color: #ec7200;">public</span>
-                            <a href="#">View Community Website</a>
-                        </div>
-                        <div class="btn"><button>Message</button></div>
+                    <div>
+                        <span class="material-symbols-outlined" style="color: #ec7200;">smartphone</span>
+                        <a href="#">+233 241274720</a>
+                    </div>
+                    <div>
+                        <span class="material-symbols-outlined" style="color: #ec7200;">public</span>
+                        <a href="#">View Community Website</a>
+                    </div>
+                    <div class="btn"><button onclick="displayReq()">Message</button></div>
                 </div>
                 <div class="con">
                     <div>
-                        <span class="material-symbols-outlined">public</span>                
+                        <span class="material-symbols-outlined">public</span>
                         <span>Language: English</span>
                     </div>
                     <div>
-                        <span class="material-symbols-outlined">update</span>                
+                        <span class="material-symbols-outlined">update</span>
                         <span>Open Thusday 10AM 6PM</span>
                     </div>
                     <div class="more">
-                        <a href="#">View More Hours &#8744</a>
+                        <a class="tooltip2" style="cursor: pointer;">
+                            View More Hours &#8744
+                            <span class="tooltiptext2">
+                                <h2>Opening hours</h2>
+
+                                <div class="flex2">
+                                    <div class="day">Wednesday</div>
+                                    <div class="time">10AM</div>
+                                    <div class="time">6PM</div>
+                                </div>
+                                <div class="flex2">
+                                    <div class="day">Thursday</div>
+                                    <div class="time">10AM</div>
+                                    <div class="time">6PM</div>
+                                </div>
+                                <div class="flex2">
+                                    <div class="day">Friday</div>
+                                    <div class="time">10AM</div>
+                                    <div class="time">6PM</div>
+                                </div>
+                                <div class="flex2">
+                                    <div class="day">Saturday</div>
+                                    <div class="time">10AM</div>
+                                    <div class="time">6PM</div>
+                                </div>
+                                <div class="flex2">
+                                    <div class="day">Sunday</div>
+                                    <div class="time">10AM</div>
+                                    <div class="time">6PM</div>
+                                </div>
+                                <div class="flex2">
+                                    <div class="day">Monday</div>
+                                    <div class="time">10AM</div>
+                                    <div class="time">6PM</div>
+                                </div>
+
+                            </span>
+
+                        </a>
                     </div>
                 </div>
                 <div class="con">
-                    <div><p>
-                        Vertically integrated real apartment 
-                        development and investment firm head 
-                        in Takoradi, GA
-                    </p></div>
+                    <div>
+                        <p>
+                            Vertically integrated real apartment
+                            development and investment firm head
+                            in Takoradi, GA
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -433,127 +772,118 @@
             </div>
         </div>
     </div>
-    <div class="request">
-        <div class="container">
-            <div class="closehead">
-                Richie Rich Apartment
-                <span class="cancel " onclick="closeEmail()" >
-                    <span class="material-symbols-outlined">
-                        close
-                    </span>
-                </span>
-            </div>    
-            <div class="form">
 
-            </div>
-        </div>
-    </div>
 
 
     <script>
-        window.onscroll = function() {myFunction()};
+        window.onscroll = function () { myFunction() };
         var navbar = document.getElementById("navbar");
         var sidebar = document.getElementById("sidebar");
         var emailform = document.getElementById("email");
+        var messageForm = document.getElementById("requestform")
+        var messageForm2 = document.getElementById("requestform2")
+        var messageForm3 = document.getElementById("requestform3")
+        var messageForm4 = document.getElementById("requestform4")
+
 
 
         var sticky = navbar.offsetTop;
         var sticky2 = sidebar.offsetTop;
-        function displayEmail(){emailform.classList.remove("cancelele")}
-        function closeEmail(){emailform.classList.add("cancelele")}
+        function displayEmail() { emailform.classList.remove("cancelele") }
+        function closeEmail() { emailform.classList.add("cancelele") }
+
+        function displayReq() { messageForm.classList.remove("cancelele") }
+        function closeReq() { messageForm.classList.add("cancelele") }
+        function displayReq2() { messageForm2.classList.remove("cancelele") }
+        function closeReq2() { messageForm2.classList.add("cancelele") }        
+        function displayReq3() { messageForm3.classList.remove("cancelele") }
+        function closeReq3() { messageForm3.classList.add("cancelele") }
+        function displayReq4() { messageForm4.classList.remove("cancelele") }
+        function closeReq4() { messageForm4.classList.add("cancelele") }
 
 
 
+        var bed_1 = document.getElementById("b1");
+        var bed_2 = document.getElementById("b2");
+        var bed_3 = document.getElementById("b3");
+        var bed_4 = document.getElementById("b4");
+        var bed_5 = document.getElementById("b5");
+        var bed_6 = document.getElementById("b6");
+        var bed_7 = document.getElementById("b7");
+        var bed_8 = document.getElementById("b8");
+        var bed_9 = document.getElementById("b9");
+        var bed_10 = document.getElementById("b10");
 
-
-
-
-
-
-
-
-
-
-        var bed_1 = document.getElementById("b1");        
-        var bed_2 = document.getElementById("b2");        
-        var bed_3 = document.getElementById("b3");        
-        var bed_4 = document.getElementById("b4");        
-        var bed_5 = document.getElementById("b5");        
-        var bed_6 = document.getElementById("b6");        
-        var bed_7 = document.getElementById("b7");        
-        var bed_8 = document.getElementById("b8");        
-        var bed_9 = document.getElementById("b9");        
-        var bed_10 = document.getElementById("b10");        
-
-        function showall(){
-            bed_1.classList.remove("hide")        
-            bed_2.classList.remove("hide")        
-            bed_3.classList.remove("hide")        
-            bed_4.classList.remove("hide")        
-            bed_5.classList.remove("hide")        
-            bed_6.classList.remove("hide")        
-            bed_7.classList.remove("hide")        
-            bed_8.classList.remove("hide")        
-            bed_9.classList.remove("hide")        
+        function showall() {
+            bed_1.classList.remove("hide")
+            bed_2.classList.remove("hide")
+            bed_3.classList.remove("hide")
+            bed_4.classList.remove("hide")
+            bed_5.classList.remove("hide")
+            bed_6.classList.remove("hide")
+            bed_7.classList.remove("hide")
+            bed_8.classList.remove("hide")
+            bed_9.classList.remove("hide")
         }
-        function show1(){
-            bed_1.classList.remove("hide")        
-            bed_2.classList.remove("hide")        
-            bed_3.classList.add("hide")        
-            bed_4.classList.add("hide")        
-            bed_5.classList.add("hide")        
-            bed_6.classList.add("hide")        
-            bed_7.classList.add("hide")        
-            bed_8.classList.add("hide")        
-            bed_9.classList.add("hide")        
+        function show1() {
+            bed_1.classList.remove("hide")
+            bed_2.classList.remove("hide")
+            bed_3.classList.add("hide")
+            bed_4.classList.add("hide")
+            bed_5.classList.add("hide")
+            bed_6.classList.add("hide")
+            bed_7.classList.add("hide")
+            bed_8.classList.add("hide")
+            bed_9.classList.add("hide")
         }
-        function show2(){
-            bed_1.classList.add("hide")        
-            bed_2.classList.add("hide")        
-            bed_3.classList.remove("hide")        
-            bed_4.classList.remove("hide")        
-            bed_5.classList.remove("hide")        
-            bed_6.classList.add("hide")        
-            bed_7.classList.add("hide")        
-            bed_8.classList.add("hide")        
-            bed_9.classList.add("hide")        
+        function show2() {
+            bed_1.classList.add("hide")
+            bed_2.classList.add("hide")
+            bed_3.classList.remove("hide")
+            bed_4.classList.remove("hide")
+            bed_5.classList.remove("hide")
+            bed_6.classList.add("hide")
+            bed_7.classList.add("hide")
+            bed_8.classList.add("hide")
+            bed_9.classList.add("hide")
         }
-        function show3(){
-            bed_1.classList.add("hide")        
-            bed_2.classList.add("hide")        
-            bed_3.classList.add("hide")        
-            bed_4.classList.add("hide")        
-            bed_5.classList.add("hide")        
-            bed_6.classList.remove("hide")        
-            bed_7.classList.remove("hide")        
-            bed_8.classList.add("hide")        
-            bed_9.classList.add("hide")        
+        function show3() {
+            bed_1.classList.add("hide")
+            bed_2.classList.add("hide")
+            bed_3.classList.add("hide")
+            bed_4.classList.add("hide")
+            bed_5.classList.add("hide")
+            bed_6.classList.remove("hide")
+            bed_7.classList.remove("hide")
+            bed_8.classList.add("hide")
+            bed_9.classList.add("hide")
         }
-        function show4(){
-            bed_1.classList.add("hide")        
-            bed_2.classList.add("hide")        
-            bed_3.classList.add("hide")        
-            bed_4.classList.add("hide")        
-            bed_5.classList.add("hide")        
-            bed_6.classList.add("hide")        
-            bed_7.classList.add("hide")        
-            bed_8.classList.remove("hide")        
-            bed_9.classList.remove("hide")         
+        function show4() {
+            bed_1.classList.add("hide")
+            bed_2.classList.add("hide")
+            bed_3.classList.add("hide")
+            bed_4.classList.add("hide")
+            bed_5.classList.add("hide")
+            bed_6.classList.add("hide")
+            bed_7.classList.add("hide")
+            bed_8.classList.remove("hide")
+            bed_9.classList.remove("hide")
         }
-        
+
         function myFunction() {
             if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-          } else {
-            navbar.classList.remove("sticky");
-          }
-          if (window.pageYOffset >= 100) {
-            sidebar.classList.add("sticky")
-          } else {
-            sidebar.classList.remove("sticky");
-          }
-          
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+            if (window.pageYOffset >= 100) {
+                sidebar.classList.add("sticky")
+            } else {
+                sidebar.classList.remove("sticky");
+            }
+
         }
-        </script>
+    </script>
 </body>
+
 </html>
